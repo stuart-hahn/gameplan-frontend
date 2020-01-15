@@ -11,7 +11,33 @@
 </head>
 <body>
     <div class="container">
-        <h1>Gameplans</h1>
+        <section class="header">
+            <h1>Madden 20 Gameplans</h1>
+        </section>
+
+        <div class="newFormationForm">
+            <form>
+                <div class="row">
+                <div class="six columns">
+                    <label for="formationName">Formation Name</label>
+                    <input class="u-full-width" type="text" placeholder="ex. Gun Bunch" id="formationName">
+                </div>
+                <div class="six columns">
+                    <label for="playbookName">Playbook Name</label>
+                    <select class="u-full-width" id="playbookName">
+                    <option value="Option 1">Formation 1</option>
+                    <option value="Option 2">Formation 2</option>
+                    <option value="Option 3">Formation 3</option>
+                    </select>
+                </div>
+                </div>
+                <input class="button-primary" type="submit" value="Create Formation">
+            </form>
+        </div>
+
+        <div class="formationsContainer">
+            <h6 class="sectionHeader">All Formations</h6>
+        </div>
     </div>
 </body>
 </html>
